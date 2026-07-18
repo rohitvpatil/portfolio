@@ -168,3 +168,87 @@ font-size:3rem;
 }
 
 }   
+
+/* ==========================
+ABOUT
+========================== */
+
+#about{
+
+background:#111827;
+
+}
+
+#about p{
+
+color:#d1d5db;
+
+line-height:1.8;
+
+}
+
+/* ==========================
+SKILLS
+========================== */
+
+#skills{
+
+background:#0f172a;
+
+}
+
+.skill-card{
+
+background:#1e293b;
+
+color:white;
+
+border:none;
+
+transition:.3s;
+
+height:180px;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+}
+
+.skill-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 15px 30px rgba(56,189,248,.3);
+
+}
+
+.skill-icon{
+
+font-size:50px;
+
+color:#38bdf8;
+
+margin-bottom:15px;
+
+}
+
+#skills ul{
+
+list-style:none;
+
+padding:0;
+
+}
+
+#skills li{
+
+padding:8px 0;
+
+border-bottom:1px solid rgba(255,255,255,.08);
+
+color:#d1d5db;
+
+}

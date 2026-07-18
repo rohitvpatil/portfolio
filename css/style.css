@@ -289,4 +289,50 @@ EXPERIENCE
 
 .experience-card h5{
     color:#38bdf8;
+}       
+
+/* ==========================
+PROJECTS
+========================== */
+
+#projects{
+    background:#0f172a;
+}
+
+.project-card{
+
+    background:#1e293b;
+
+    border-radius:15px;
+
+    padding:30px;
+
+    transition:.3s;
+
+    border-top:4px solid #38bdf8;
+
+}
+
+.project-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 15px 30px rgba(56,189,248,.25);
+
+}
+
+.project-card h4{
+
+    color:white;
+
+    margin-bottom:20px;
+
+}
+
+.project-card p{
+
+    color:#d1d5db;
+
+    line-height:1.7;
+
 }
